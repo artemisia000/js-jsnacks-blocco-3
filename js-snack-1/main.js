@@ -24,19 +24,110 @@ const player = [
         name: 'Kobe',
         lastName: 'Bryant',
         age: '43',
-        media: '36',
+        media: '23',
         percentage: '60%',
     },
+    {
+        code: 'AIS024',
+        name: 'Kobe',
+        lastName: 'Bryant',
+        age: '43',
+        media: '23',
+        percentage: '60%',
+    },
+    {
+        code: 'AIS024',
+        name: 'Kobe',
+        lastName: 'Bryant',
+        age: '43',
+        media: '23',
+        percentage: '60%',
+    },
+    {
+        code: 'AIS024',
+        name: 'Kobe',
+        lastName: 'Bryant',
+        age: '43',
+        media: '23',
+        percentage: '60%',
+    },
+    {
+        code: 'AIS024',
+        name: 'Kobe',
+        lastName: 'Bryant',
+        age: '43',
+        media: '23',
+        percentage: '60%',
+    },
+    {
+        code: 'AIS024',
+        name: 'Kobe',
+        lastName: 'Bryant',
+        age: '43',
+        media: '23',
+        percentage: '60%',
+    },
+    {
+        code: 'AIS024',
+        name: 'Kobe',
+        lastName: 'Bryant',
+        age: '43',
+        media: '23',
+        percentage: '60%',
+    },
+    {
+        code: 'AIS024',
+        name: 'Kobe',
+        lastName: 'Bryant',
+        age: '43',
+        media: '23',
+        percentage: '60%',
+    },
+    {
+        code: 'AIS024',
+        name: 'Kobe',
+        lastName: 'Bryant',
+        age: '43',
+        media: '23',
+        percentage: '60%',
+    },
+    {
+        code: 'AIS024',
+        name: 'Kobe',
+        lastName: 'Bryant',
+        age: '43',
+        media: '23',
+        percentage: '60%',
+    },
+
 ];
+
+
+
+
+
 console.table(player);
 
 
+const cardPlayer = player.map( (play) => {
+    return play.code;
+});
+
+console.log(cardPlayer);
+
+
+
+
 for(let i = 0; i < 3; i++){
+
+    
 
     const randCode = getRandom(0, 10);
     console.log('randCode',randCode);
 
 }
+
+
 
 
 
@@ -78,3 +169,5 @@ function randWord(length) {
  }
  
  console.log(randWord(3));
+
+ 
