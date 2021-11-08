@@ -26,7 +26,37 @@ const player = [
         age: '43',
         media: '30',
         percentage: '60%',
-    }
+    },
 ];
 console.table(player);
 
+
+
+//R
+
+
+
+
+//RAND media punti per partita
+
+for(let i = 0; i < 1; i++ ){
+    //genera numero random
+
+    //invocazione
+    const randMedia = getRandom(0,50);
+    console.log(randMedia);
+}
+
+//RAND percentuale tiri a 3 punti
+    
+    //invocazione
+const randPunti = getRandom(0, 1003);
+console.log(randPunti);
+
+
+//definizione funzione
+
+function getRandom(min,max){
+    const rand = Math.floor(Math.random() * (max - min + 1))+ min;
+    return rand;
+}
