@@ -16,7 +16,7 @@ const newNumbers = numbers.map((element)  => {
     console.log(element);
     
     if (element % element === element);
-    return element * 2;
+    return element * element;
     
 });
 
